@@ -16,7 +16,7 @@ Bu projenin amacı, MAVLink protokolü kullanarak bir otonom sistemle (örneğin
 
 Öncelikle, gerekli Python kütüphanelerini kurmanız gerekiyor:
 Cmd kullanrak bu ve bundan sonraki kütüphaneleri kullanabilirsiniz
-!!DİKKAT Linux yada windows arasında farklar olabilir onlara göre ilerleyin lütfen 
+!!DİKKAT Linux yada windows arasında farklar olabilir onlara göre ilerleyin 
 
 ```bash
 pip install pymavlink
@@ -48,10 +48,10 @@ Ayrıca, her iki işlevi de Python ile nasıl uygulayabileceğimizi, karşılaş
 bu kodlar şahsım  tarafındanda ilk denemelerden biridir bundan mütevellit ayrıntılı bir açıklama yolu olan 2 kere örnekleyerek açıklamak istedim umarım anlaşılmış olur
 
 Gerekli Kütüphaneler ve Hazırlık
-Bu işlemler için şu kütüphanelere ihtiyaç duyacağız:
+
 
 tkinter: GUI oluşturmak için kullanacağız.
-pymavlink: MAVLink mesajlarını oluşturmak ve göndermek için kullanacağız.
+en önemlı olandan pymavlink: MAVLink mesajlarını oluşturmak ve göndermek için kullanacağız.
 keyboard: Klavye olaylarını yakalamak için.
 İlk olarak, gerekli kütüphaneleri yükleyelim:
 
